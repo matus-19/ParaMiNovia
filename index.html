@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti</title>
+    <style>
+        body
+        {
+            background: #0b1522;
+        }
+        .container{
+            width: 500px;
+            height: 500px;
+            right: -20px;
+            bottom: -150px;
+            position: relative;
+        }
+        p
+        {
+            color: red;
+            box-shadow: -10px 15px 100px #f20044;
+        }
+        p
+        {
+            animation: latiendo 0.6s linear infinite;
+        }
+        @keyframes latiendo {
+            0%{transform: scale(1.4);}
+            70%{transform: scale(2s);}
+        }
+        a 
+        {
+            color:#f20044;
+            font-size: 25px;
+            position: absolute;
+
+        }
+        b 
+        {
+            color: #999;
+            font-size: 10px;
+            position: absolute;
+            right: 120px;
+        }
+        .amor{
+            position: absolute;
+            right: 255px;
+            bottom: 110px;
+            color: red;
+            font-size: 25px;
+            box-shadow: -10px 15px 100px #f20044;
+        }
+        .segunda{
+            position: absolute;
+            right: 235px;
+            bottom: 15px;
+        }
+        .tercera{
+            position: absolute;
+            right: 215px;
+            bottom: 25px;
+        }
+        .cuarta{
+            position: absolute;
+            right: 205px;
+            bottom: 35px;
+        }
+        .quinta{
+            position: absolute;
+            right: 190px;
+            bottom: 45px;
+        }
+        .sexta{
+            position: absolute;
+            right: 175px;
+            bottom: 60px;
+        }
+        .septima{
+            position: absolute;
+            right: 160px;
+            bottom: 75px;
+        }
+        .octava{
+            position: absolute;
+            right: 145px;
+            bottom: 90px;
+        }
+        .novena{
+            position: absolute;
+            right: 150px;
+            bottom: 105px;
+        }
+        .decima{
+            position: absolute;
+            right: 125px;
+            bottom: 120px;
+        }
+        .decima1{
+            position: absolute;
+            right: 110px;
+            bottom: 135px;
+        }
+        .decima2{
+            position: absolute;
+            right: 100px;
+            bottom: 150px;
+        }
+        .decima3{
+            position: absolute;
+            right: 100px;
+            bottom: 165px;
+        }
+        .decima4{
+            position: absolute;
+            right: 100px;
+            bottom: 165px;
+        }
+        .decima5{
+            position: absolute;
+            right: 100px;
+            bottom: 180px;
+        }
+        .decima6{
+            position: absolute;
+            right: 105px;
+            bottom: 195px;
+        }
+        .decima7{
+            position: absolute;
+            right: 110px;
+            bottom: 210px;
+        }
+        .decima8{
+            position: absolute;
+            right: 120px;
+            bottom: 225px;
+        }
+        .decima9 
+        {
+            position: absolute;
+            right: 130px;
+            bottom: 240px;
+        }
+        .vigesima{
+            position: absolute;
+            right: 140px;
+            bottom: 255px;
+        }
+        .vigesima1{
+            position: absolute;
+            right: 179px;
+            bottom: 265px;
+        }
+        .vigesima2{
+            position: absolute;
+            right: 205px;
+            bottom: 255px;
+        }
+        .vigesima3{
+            position: absolute;
+            right: 220px;
+            bottom: 240px;
+        }
+        .vigesima4{
+            position: absolute;
+            right: 230px;
+            bottom: 225px;
+        }
+        .vigesima5{
+            position: absolute;
+            right: 240px;
+            bottom: 210px;
+        }
+        .vigesima6{
+            position: absolute;
+            right: 250px;
+            bottom: 190px;
+        }
+        .primera-{
+            position: absolute;
+            right: 255px;
+            bottom: 0;
+        }
+        .segunda-{
+        position: absolute;
+        right: 298px;
+        bottom: 12px;
+            }
+        .tercera-{
+            position: absolute;
+            right: 310px;
+            bottom: 25px;
+        }
+        .cuarta-{
+            position: absolute;
+            right: 320px;
+            bottom: 37px;
+        }
+        .quinta-{
+            position: absolute;
+            right: 330px;
+            bottom: 45px;
+        }
+        .sexta-{
+            position: absolute;
+            right: 340px;
+            bottom: 60px;
+        }
+        .septima-{
+            position: absolute;
+            right: 350px;
+            bottom: 75px;
+        }
+        .octava-{
+            position: absolute;
+            right: 365px;
+            bottom: 90px;
+        }
+        .novena-{
+            position: absolute;
+            right: 380px;
+            bottom: 105px;
+        }
+        .decima-{
+            position: absolute;
+            right: 395px;
+            bottom: 120px;
+        }
+        .decima-1{
+            position: absolute;
+            right: 410px;
+            bottom: 135px;
+        }
+        .decima-2{
+            position: absolute;
+            right: 420px;
+            bottom: 150px;
+        }
+        .decima-3{
+            position: absolute;
+            right: 430px;
+            bottom: 165px;
+        }
+        .decima-4{
+            position: absolute;
+            right: 440px;
+            bottom: 180px;
+        }
+        .decima-5{
+            position: absolute;
+            right: 445px;
+            bottom: 195px;
+        }
+        .decima-6{
+            position: absolute;
+            right: 445px;
+            bottom: 210px;
+        }
+        .decima-7{
+            position: absolute;
+            right: 435px;
+            bottom: 220px;
+        }
+        .decima-8{
+            position: absolute;
+            right: 425px;
+            bottom: 235px;
+        }
+        .decima-9{
+            position: absolute;
+            right: 425px;
+            bottom: 250px;
+        }
+        .vigesima-{
+            position: absolute;
+            right: 410px;
+            bottom: 265px;
+        }
+        .vigesima-1{
+            position: absolute;
+            right: 370px;
+            bottom: 279px;
+        }
+        .vigesima-2{
+            position: absolute;
+            right: 340px;
+            bottom: 265px;
+        }
+        .vigesima-3{
+            position: absolute;
+            right: 330px;
+            bottom: 250px;
+        }
+        .vigesima-4{
+            position: absolute;
+            right: 310px;
+            bottom: 235px;
+        }
+        .vigesima-5{
+            position: absolute;
+            right: 300px;
+            bottom: 215px;
+        }
+        .vigesima-6{
+            position: absolute;
+            right: 285px;
+            bottom: 200px;
+        }
+
+        .vigesima-7{
+            position: absolute;
+            right: 285px;
+            bottom: 190px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <a class="TuyYo">Te voy a amar por siempre</a>
+    <b class="TuyYo">No importa que, en serio</b>
+    <p class="amor">Ximena</p>
+
+    
+    <p class="segunda">Mi vida</p>
+    <p class="tercera">Mi felicidad</p>
+    <p class="cuarta">Mi deseo</p>
+    <p class="quinta">Eres</p>
+    <p class="sexta">La</p>
+    <p class="septima">Razon</p>
+    <p class="octava">De todo</p>
+    <p class="novena">Linda</p>
+    <p class="decima">Sos</p>
+    <p class="decima1">El</p>
+    <p class="decima2">Amor</p>
+    <p class="decima3">De</p>
+    <p class="decima4">Mi vida</p>
+    <p class="decima5">Ximena</p>
+    <p class="decima6">Mi futuro</p>
+    <p class="decima7">Mi impulso</p>
+    <p class="decima8">Te</p>
+    <p class="decima9">Amo</p>
+    <p class="vigesima">Demasiadp</p>
+    <p class="vigesima1">Esplendida</p>
+    <p class="vigesima2">Hermosa</p>
+    <p class="vigesima3">Perfecta</p>
+    <p class="vigesima4">Unica</p>
+    <p class="vigesima5">Mía</p>
+    <p class="vigesima6">Guapisima</p>
+    <p class="primera-">Te amo</p>
+    <p class="segunda-">Compromiso</p>
+    <p class="tercera-">Amor</p>
+    <p class="cuarta-">Soy</p>
+    <p class="quinta-">Tuyo</p>
+    <p class="sexta-">Siempre</p>
+    <p class="septima-">Seré</p>
+    <p class="octava-">Tu</p>
+    <p class="novena-">Fan</p>
+    <p class="decima-">29/06</p>
+    <p class="decima-1">Mi curita</p>
+    <p class="decima-2">Cefalico-</p>
+    <p class="decima-3">Caudo-</p>
+    <p class="decima-4">Preciosa</p>
+    <p class="decima-5">(∂ + m) ψ = 0</p>
+    <p class="decima-6"> </p>
+    <p class="decima-7">Te quiero</p>
+    <p class="decima-8">Para toda</p>
+    <p class="decima-9">La vida</p>
+    <p class="vigesima-">Mi mujer</p>
+    <p class="vigesima-1">Amor Por</p>
+    <p class="vigesima-2">Siempre</p>
+    <p class="vigesima-3">Aquipo </p>
+    <p class="vigesima-4">Somos</p>
+    <p class="vigesima-5">Gracias</p>
+    <p class="vigesima-6">X + D</p>
+    <p class="vigesima-7"> </p>
+
+   </div> 
+</body>
+</html>
